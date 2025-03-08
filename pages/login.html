@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trend Company is dedicated to empowering individuals and organizations with innovative solutions that foster growth, inspire creativity, and drive sustainable success. Our mission is to deliver exceptional value through excellence, ethical practices, and a deep understanding of market needs.">
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/globalStyles.css">
+    <link rel="stylesheet" href="../css/login.css">
+    
+    <!-- Custom Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <title>Trend</title>
+    <body>
+        <div class="grid container gap-2">
+            <!----------------------------- Header --------------------->
+            <header class="header flex align-items-center justify-content-between">
+                <a class="logo" href="/index.html">
+                    <span class="color-primary primary-font upper-case font-size-1-5">TREND</span>
+                </a>
+                <nav class="nav">
+                    <ul class="flex flex-wrap gap-1">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="/pages/login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!------------------------------ Login Section --------------------------->
+            <div class="login-container mx-auto p-2 white-bg">
+                <form class="login-form flex flex-column gap-1">
+                    <h1 class="primary-font text-center font-size-2 color-primary">Login</h1>
+                    <div class="form-group">
+                        <label class="color-dark-gray" for="email">Email</label>
+                        <input class="font-size-1" type="email" id="email" name="email" required minlength="8" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                    </div>
+                    <div class="form-group">
+                        <label class="color-dark-gray" for="password">Password</label>
+                        <input class="font-size-1" type="password" id="password" name="password" required minlength="8">
+                    </div>
+                    <span>Dont have an account? <a href="#"><strong class="color-primary">Register</strong></a> now</span>
+                    <button type="submit" class="btn-primary color-white font-size-1 pointer">Login</button>
+                </form>
+            </div>
+            
+            <!----------------------------- Footer --------------------->
+            <footer class="grid text-center gap-1 mt-auto p-1">
+                    <div class="footer-logo">
+                        <span class="color-primary primary-font upper-case font-size-1-5">TREND</span>
+                    </div>
+                    <nav class="footer-nav  flex flex-wrap gap-1 flex-column gap-1">
+                        <span>Useful links:</span>
+                        <ul class="flex flex-wrap gap-1 flex-column">
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="/pages/contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer-social flex flex-wrap gap-1 flex-column gap-1">
+                        <span>Follow us at:</span>
+                        <ul class="flex flex-wrap gap-1 flex-column">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <copy class="footer-copy">&copy; <time>2025</time> Trend Company. All rights reserved.</copy>
+            </footer>
+
+        </div>
+    </body>
+</html>

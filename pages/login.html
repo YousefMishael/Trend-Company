@@ -52,30 +52,68 @@
             
             <!----------------------------- Footer --------------------->
             <footer class="grid text-center gap-1 mt-auto p-1">
-                    <div class="footer-logo">
-                        <span class="color-primary primary-font upper-case font-size-1-5">TREND</span>
+                <div class="footer-logo">
+                  <span class="color-primary primary-font upper-case font-size-1-5"
+                    >TREND</span
+                  >
+                </div>
+                <nav class="footer-nav flex flex-wrap gap-1 gap-1 flex-column-lg">
+                  <span>Useful links:</span>
+                  <ul class="flex flex-wrap gap-1 flex-column-lg">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="/pages/login.html">Login</a></li>
+                  </ul>
+                </nav>
+                <div class="footer-social flex flex-wrap gap-1 gap-1 flex-column-lg">
+                  <span>Follow us at:</span>
+                  <ul class="flex flex-wrap gap-1 flex-column-lg">
+                    <li>
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-contact">
+                  <div class="flex flex-row-md flex-column gap-1">
+                    <div class="gap-0-5 flex flex-column flex-1">
+                      <span>Contact Us:</span>
+                      <address>Nablus St, Ramallah City, Palestine</address>
+                      <address>Phone: (568) 68-68-10</address>
+                      <address>Email: contact.us@trendcompany.com</address>
                     </div>
-                    <nav class="footer-nav  flex flex-wrap gap-1 flex-column gap-1">
-                        <span>Useful links:</span>
-                        <ul class="flex flex-wrap gap-1 flex-column">
-                            <li><a href="/index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="/pages/contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class="footer-social flex flex-wrap gap-1 flex-column gap-1">
-                        <span>Follow us at:</span>
-                        <ul class="flex flex-wrap gap-1 flex-column">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
+                    <div class="footer-newsletter  flex-1">
+                      <span>Subscribe to our Newsletter:</span>
+                      <form class="flex flex-column">
+                        <input
+                          type="email"
+                          placeholder="Your email"
+                          required
+                          pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                        />
+                        <button class="color-white primary-bg pointer" type="submit">
+                          Subscribe
+                        </button>
+                      </form>
                     </div>
-                    <copy class="footer-copy">&copy; <time>2025</time> Trend Company. All rights reserved.</copy>
-            </footer>
-
+                  </div>
+                </div>
+        
+                <copy class="footer-copy"
+                  >&copy; <time>2025</time>
+                  <span class="primary-font upper-case">Trend</span> Company. All rights
+                  reserved.</copy
+                >
+              </footer>
         </div>
     </body>
 </html>
